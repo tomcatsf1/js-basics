@@ -104,15 +104,15 @@ var booya6;
 */
 
 
-/*7
-* Accessing values in Arrays
-* var partyList = ["carrot cake", "gin & tonic", "kalua pork nachos", "double stuff oreos", "cool ranch doritos", "orange chicken"];
+//*7
+//Accessing values in Arrays
 
-Console.log the entire array.
-Console.log the length of this array.
-Console.log only "carrot cake" from this array.
-Console.log only "cool ranch doritos" from this array
-*/
+var partyList = ["carrot cake", "gin & tonic", "kalua pork nachos", "double stuff oreos", "cool ranch doritos", "orange chicken"];
+
+// Console.log the entire array.
+// Console.log the length of this array.
+// Console.log only "carrot cake" from this array.
+// Console.log only "cool ranch doritos" from this array
 
 
 /*
