@@ -25,6 +25,9 @@ console.log(pet);  // <= this should print out sebastian the pug
 var firstName = 'Vic';
 console.log(firstName);
 
+var lastName = 'Lee';
+console.log(lastName)
+
 
 /*
 * #2
