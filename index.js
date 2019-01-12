@@ -22,6 +22,9 @@ console.log(pet);  // <= this should print out sebastian the pug
 * Assign your own string values to each variable and console.log each variable.
 */
 
+var firstName = 'Vic';
+console.log(firstName);
+
 
 /*
 * #2
