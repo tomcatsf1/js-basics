@@ -371,8 +371,13 @@ console.log(pieResult);
 * Declare a variable jumpResult and assign it to the function call.
 * Console.log the variable to see the result.
 */
+function jumped(height){
+    var howHigh = 5;
+    return "You jumped " + howHigh + " feet high!"
 
-
+}
+var jumpResult = jumped();
+console.log(jumpResult);
 /*
 * Declare a Function named makeFood which takes three parameters, ingredient1, ingredient2, recipeName.
 * 
