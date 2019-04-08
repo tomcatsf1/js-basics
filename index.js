@@ -387,4 +387,12 @@ console.log(jumpResult);
 *
 * Declare a variable foodResult and assign it to the function call. Console.log the variable to see the result.
 */
+function makeFood(ingredient1, ingredient2, recipeName){
+    var ingredient1 = 'kimchii';
+    var ingredient2 = 'rice';
+    var recipeName = 'fly lice';
+    return "" + ingredient1 + " and " + ingredient2 + " make a " + recipeName + ""; //"The temperature is " + x + " Celsius"
 
+}
+var foodResult = makeFood();
+console.log(foodResult)
