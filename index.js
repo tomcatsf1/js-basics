@@ -22,12 +22,35 @@ console.log(pet);  // <= this should print out sebastian the pug
 * Assign your own string values to each variable and console.log each variable.
 */
 
-var firstName = 'Vic';
+var firstName = 'Tom';
 console.log(firstName);
 
-var lastName = 'Lee';
+var lastName = 'Cory';
 console.log(lastName)
 
+var birthPlace = 'Kansas';
+console.log(birthPlace);
+
+var favFood = 'vegan';
+console.log(favFood);
+
+var favDrink = 'water';
+console.log(favDrink);
+
+var favSong = 'Let it go';
+console.log(favSong);
+
+var favAnimal = 'Dog';
+console.log(favAnimal);
+
+var favColor = 'black';
+console.log(favColor);
+
+var favSport = 'Snowboarding';
+console.log(favSport);
+
+var favDougnut = 'BlueStar';
+console.log(favDougnut);
 
 /*
 * #2
@@ -38,6 +61,11 @@ console.log(lastName)
 * Assign your own number values to each variable and console.log each variable.
 */
 
+var favNumber = 69;
+console.log(favNumber);
+
+var yourShoeSize = '9';
+console.log(yourShoeSize);
 
 /*
 * #3
@@ -46,8 +74,8 @@ console.log(lastName)
 * Declare variables named likesMcDonalds, eatsDoughnuts and ownsRedShoes.
 *
 * Assign your own boolean values to each variable and console.log each variable.
-*
-* 
+
+
 * Now, use comparison and logic operators (>, <, >=, <=, ===, !==) to make the following variables True of False
 *
 * Console.log each variable.
@@ -55,25 +83,30 @@ console.log(lastName)
 */
 
 //For example:
-//Make me True:
-var booya1 = 3 > 2; 
+// //Make me True:
+var booya1 = Boolean(booya1 == booya1);
 console.log(booya1);
 
-//Make me False:
-var booya2;
+// // //Make me False:
+var booya2 = Boolean(2 < 1);
+console.log(booya2);
 
-//Make me True:
-var booya3;
 
-//Make me False:
-var booya4;
+// // //Make me True:
+var booya3 = Boolean('Kanye' === 'Kanye');
+console.log(booya3)
 
-//Make me True:
-var booya5; 
+// // //Make me False:
+var booya4 = Boolean()
+console.log(booya4);
 
-//Make me False:
-var booya6;
+// // //Make me True:
+var booya5 = (1 === 1);
+console.log(booya5);
 
+// //Make me False:
+var booya6 = (booya1 !== booya1);
+console.log(booya6);
 
 /*
 * #4
@@ -83,7 +116,17 @@ var booya6;
 *
 * Assign a null value to each variable and console.log each variable. 
 */
+var completedPrepClass;
+completedPrepClass = null;
+console.log(completedPrepClass);
 
+var traveledToMars;
+traveledToMars = null;
+console.log(traveledToMars);
+
+var buyVicADrink;
+buyVicADrink = null;
+console.log(buyVicADrink);
 
 /*
 * #5
@@ -93,7 +136,14 @@ var booya6;
 *
 * Do not assign a value to the variable and console.log each variable.
 */
+var superBowlChamps;
+console.log(superBowlChamps);
 
+var nextPres;
+console.log(nextPres);
+
+// val hawaiiTrain;
+// console.log(hawaiiTrain); wtf?
 
 /*
 * #6
@@ -108,6 +158,23 @@ var booya6;
 *
 * Console.log each variable.
 */
+var plateLunch = ['friedChicken', 'macSalad', 'brownRice', 'kimChi', 'greenSalad'];
+console.log(plateLunch);
+
+var donutBox = ['blueStar', 'krispyKreme', 'oldFashioned', 'donutHole', 'glazed'];
+console.log(donutBox);
+
+var westCoast = ['Washington', 'Oregon', 'California', 'Idaho', 'Nevada'];
+console.log(westCoast);
+
+var lotteryResult = ['2,000,000', '1,000,000', '500,000,000', '100,000,000', '2'];
+console.log(lotteryResult);
+
+var hamajang = ['string', 'number', 'null', 'undefined', 'array', 'boolean'];
+console.log(hamajang);
+
+var dynamicDuos = [['Batman and Robin'], ['Forest and Bubba'], ['Ebony and Ivory']];
+console.log(dynamicDuos);
 
 
 //*7
@@ -116,14 +183,23 @@ var booya6;
 var partyList = ["carrot cake", "gin & tonic", "kalua pork nachos", "double stuff oreos", "cool ranch doritos", "orange chicken"];
 
 // Console.log the entire array.
+console.log(partyList);
+
 // Console.log the length of this array.
+console.log(partyList.length);
+
 // Console.log only "carrot cake" from this array.
+console.log(partyList[0]);
+
 // Console.log only "cool ranch doritos" from this array
 
+console.log(partyList[4]);
 /*
 * #8 
 * Concatenation 
 * Concatenate the variables `firstName` and `lastName` from exercise 1 and store them into a new variable called `fullName` (don't forget to include a space between the firstName and lastName).
+
+concat('firstName ' + 'lastName'); // why green?
 *
 * Using the fullName and birthPlace variables, console.log the following:
 *
@@ -131,7 +207,19 @@ var partyList = ["carrot cake", "gin & tonic", "kalua pork nachos", "double stuf
 *
 * i.e "Hi my name is Bruce Wayne and I was born in Gotham."
 */
+var fullName = firstName + " " + lastName;
+console.log(fullName);
 
+// Hi my name is fullName and I was born in birthPlace
+// var hiMy = fullName + " " + birthPlace;
+// console.log(hiMy);
+// var hiMyName = 'Hi my name is h'
+
+var string1 = 'Hi my name is ' + firstName;
+console.log(string1);
+var string2 = ' I was born in ' + birthPlace;
+console.log(string2);
+console.log(string1 + string2);
 
 /*
 * #9 
@@ -148,7 +236,22 @@ var partyList = ["carrot cake", "gin & tonic", "kalua pork nachos", "double stuf
 *
 * Console.log each new variable.
 */
+var num1 = 5;
+var num2 = 2;
+var sum = num1 + num2;
+console.log(sum);
 
+var differences = num1 - num2;
+console.log(differences);
+
+var product = num1 * num2;
+console.log(product);
+
+var quotient = num1 / num2;
+console.log(quotient);
+
+var leftOver = num1 % num2;
+console.log(leftOver);
 
 /*
 * #10
@@ -162,7 +265,17 @@ var partyList = ["carrot cake", "gin & tonic", "kalua pork nachos", "double stuf
 * Declare another variable named `sameNumba` and compare a string "5" and a number 5 using equality.
 * Console.log the variables. Do you see the difference between strict equality vs. equality?
 */
+var isStrictlyEqual;
+console.log('Tacocat' === 'tacocat');
 
+var isLooselyEqual;
+console.log('Tacocat' == 'tacocat'); //why son?
+
+var sameNum;
+console.log('5' === 5);
+
+var sameNumba = '5' == 5;
+console.log(sameNumba);
 
 /* 
 * #11
@@ -171,16 +284,20 @@ var partyList = ["carrot cake", "gin & tonic", "kalua pork nachos", "double stuf
 */
 
 //Use && to make me True
-var booya7;
+var booya7 = 5>4;
+console.log(booya7);
 
 //Use && to make me False
-var booya8;
+var booya8 = 5 >= 6;
+console.log(booya8);
 
 //Use || to make me True
-var booya9;
+var booya9 = 10 <= 11;
+console.log(booya9);
 
 //Use || to make me False
-var booya10;
+var booya10 = 11 && 12;
+console.log(booya10);
 
 //Console.log each variable
 
@@ -195,17 +312,27 @@ var booya10;
 * Change the value of the muNum variable by using the assignment operators and console.log myNum after each assignment.
 */
 
-
+var myNum = 5;
 
 //increment and assign 3 (+=):
+myNum += -2;
+console.log(myNum);
 
 //decrement and assign 1 (-=):
+myNum -= 2; // How does 2 equal 1? Incruments?
+console.log(myNum);
 
 //multiple and assign 2 (*=);
+myNum *= 2; // ??
+console.log(myNum);
 
 //divide and assign 5 (/=);
+myNum /= 2000;
+console.log(myNum);
 
 //modulo and assign 4 (%=);
+myNum %= 5;
+console.log(myNum);
 
 
 /*===================================================================*/
@@ -225,6 +352,13 @@ var booya10;
 * 
 * Declare a variable pieResult and assign it to the function call.
 * Console.log the variable to see the result.*/
+function bakePie(ingredient){
+    var pieType = 'blueberry';
+    return "'Today's special is " + pieType + " pie.'";
+
+}
+var pieResult = bakePie();
+console.log(pieResult);
 
 
 /*
